@@ -1,7 +1,7 @@
 # EC2
 resource "aws_instance" "example" {
-  ami           = data.aws_ami.ubuntu.id
-  instance_type = "t2.micro"
+  ami           = "ami-0f5fcdfbd140e4ab7"
+  instance_type = "t3.micro"
 
   tags = {
     Name = "maryline"
